@@ -1,6 +1,6 @@
 <html lang="en">
    <head>
-      <title>achmadawdi.com</title>
+      <title>My Portfolio</title>
       <meta data-n-head="ssr" charset="utf-8">
       <meta data-n-head="ssr" name="viewport" content="width=device-width, initial-scale=1">
       <meta data-n-head="ssr" data-hid="description" name="description" content="">
@@ -17,6 +17,13 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
    </head>
    <body>
+   <div class="preload-container">
+    <div class="preload z-10 fixed w-full h-screen grid grid-rows-3">
+      <div class="bg-black w-full"></div>
+      <div class="bg-black w-full"></div>
+      <div class="bg-black w-full"></div>
+    </div>
+  </div>
       <div id="__layout">
          <div>
             <nav class="drop-shadow-lg shadow-lg w-14 fixed h-screen py-10 flex flex-col justify-between transition-all bg-sidebar-black">
@@ -77,7 +84,7 @@
                         </div>
                      </div>
                      <div class="w-full h-full lg:pl-40 flex justify-center items-center order-1 lg:order-2 pb-5 lg:pb-0">
-                     <div class="h-80 lg:h-3/4 rounded-lg" style="background: url(&quot;assets/me.jpg&quot;) center center / cover; width: 100%;"></div>
+                        <div class="h-80 lg:h-3/4 rounded-lg" style="background: url(&quot;assets/me.jpg&quot;) center center / cover; width: 100%;"></div>
                      </div>
                   </div>
                </div>
@@ -178,6 +185,7 @@
          </div>
       </div>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
+      <script src="preload.js"></script>
       <script src="script.js"></script>
    </body>
 </html>
