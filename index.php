@@ -150,36 +150,25 @@
                alt="Kampus Stimata">
          </div>
          <div class="text-start flex flex-col gap-3">
-            <h1 class="text-5xl font-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat,
-               nobis.</h1>
-            <p class="leading-relaxed line-clamp-6">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-               Possimus dicta quia dolorem nemo debitis sequi, labore repellat accusamus tenetur? Labore quis
-               tempore nisi omnis neque, aliquam temporibus vero facere voluptatibus, saepe fugiat consequuntur
-               non autem, voluptatum deserunt doloremque nesciunt. Blanditiis est aut repellat error mollitia
-               omnis quos. Sunt illo voluptatibus ipsa, hic id eligendi, quo ullam dolores, corporis voluptates
-               quod dolorum magnam expedita iure ratione fugit recusandae dolor! Sequi aliquid maiores, non
-               pariatur aut asperiores tempore voluptas vitae nulla totam, reprehenderit officia eaque esse ex
-               deleniti recusandae itaque officiis rerum reiciendis voluptates nemo perspiciatis? Delectus
-               nihil
-               ex sapiente, architecto excepturi quas itaque fuga sit magnam, dolores, eum repellendus!
-               Asperiores
-               assumenda vero nesciunt modi rerum! Quas corrupti deleniti magni libero voluptatem sequi dicta
-               in
-               officia maiores, nesciunt unde quaerat placeat exercitationem a magnam quo nostrum non,
-               assumenda
-               accusamus minima incidunt eveniet commodi? Porro ratione harum corrupti, iure nam veniam hic
-               aperiam tenetur voluptas! Ducimus voluptatum quos voluptatem cupiditate dolore, ea laudantium
-               quasi
-               expedita perspiciatis qui. Aspernatur debitis, quis voluptatum ipsa obcaecati omnis provident
-               expedita accusantium architecto cupiditate quibusdam molestias ea voluptates facilis
-               consequuntur
-               consequatur nam aperiam amet? Nostrum eos ipsam reiciendis voluptate expedita dolorum cumque,
-               recusandae, laboriosam placeat autem alias doloribus.</p>
+            <h1 class="text-5xl font-bold">Pengalaman Berkuliah di STIMATA</h1>
+            <p class="leading-relaxed line-clamp-6">Halo semuanya,<br>
+        Perkenalkan nama saya Rangga Dwi Saputra, dan hari ini saya ingin berbagi sedikit cerita tentang perjalanan menakjubkan saya selama berkuliah di Kampus <a href="https://stimata.ac.id" class="font-bold text-blue-700">STIMATA</a>, khususnya di Program Studi S1-Teknologi Informasi.<br><br>
+
+   Ketika pertama kali menginjakkan kaki di <a href="https://stimata.ac.id" class="font-bold text-blue-700">STIMATA</a>, saya langsung merasakan energi positif dan semangat untuk memahami dunia Teknologi Informasi. Program studi ini memberikan pilihan unggulan seperti S1 Sistem Informasi dan D3 Sistem Informasi, memberi kami peluang untuk mendalami bidang yang sesuai dengan minat dan bakat masing-masing.<br><br>
+
+   Dalam kurikulumnya, kami tidak hanya diajarkan teori, tetapi juga diberikan pengalaman praktis yang mendalam. Proyek-proyek pengembangan perangkat lunak menjadi tantangan yang memacu kami untuk terus meningkatkan keterampilan teknis dan kolaborasi tim. Laboratorium komputer bukan hanya tempat belajar, tetapi juga tempat eksperimen kreatif, di mana kami dapat menerapkan konsep-konsep yang dipelajari dalam situasi nyata.<br><br>
+
+   Namun, pengalaman kuliah di <a href="https://stimata.ac.id" class="font-bold text-blue-700">STIMATA</a> tidak hanya tentang akademis. Dosen-dosen berpengalaman kami tidak hanya menjadi instruktur tetapi juga mentor yang peduli, membimbing kami untuk mengembangkan potensi maksimal. Terlibat dalam berbagai kegiatan ekstrakurikuler dan organisasi mahasiswa membuat perjalanan ini semakin berwarna. Kami tidak hanya belajar tentang teknologi, tetapi juga tentang kepemimpinan, kolaborasi, dan tanggung jawab sosial.<br><br>
+
+   Sekarang, menjelang akhir perjalanan ini, saya merasa siap untuk melangkah ke dunia nyata. <a href="https://stimata.ac.id" class="font-bold text-blue-700">STIMATA</a> bukan hanya sekadar kampus, tetapi rumah bagi pengembangan diri dan pertumbuhan pribadi. Untuk informasi lebih lanjut tentang pengalaman kuliah ini, jangan ragu kunjungi link Kampus <a href="https://stimata.ac.id" class="font-bold text-blue-700">STIMATA</a>.</p>
+            </p>
             <a href="detail.php" class="font-bold text-blue-700">Read more</a>
          </div>
       </div>
    </div>
 </section>
+
+<?php include('template/task.php'); ?>
 
 <?php include('template/footer.php'); ?>
 

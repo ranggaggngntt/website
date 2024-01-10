@@ -32,15 +32,14 @@
         <div>
             <nav
                 class="drop-shadow-lg shadow-lg w-14 fixed h-screen py-10 flex flex-col justify-between transition-all bg-sidebar-black">
-                <div class="text-lg
-                  font-inter font-light
-                  grid grid-flow-col
-                  gap-x-4
-                  rotate-90
-                  transform-gpu
-                  list-link
-                  "><a href="#about" class="active">about</a> <a href="#works" class="">works</a> <a href="#contact"
-                        class="">contact</a></div>
+                <div class="text-lg font-inter font-light grid grid-flow-col gap-x-4 rotate-90 transform-gpu list-link">
+                  <a href="#about" class="active">about</a>
+                  <a href="#works" class="">works</a>
+                  <a href="#video" class="">showcase</a>
+                  <a href="#blog" class="">article</a>
+                  <a href="#task" class="">task</a>
+                  <a href="#contact" class="">contact</a>
+                </div>
                 <div class="text-lg grid grid-flow-row justify-center gap-y-3 social-media">
                     <a href="https://github.com/ranggaggngntt">
                         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github" role="img"
