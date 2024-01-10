@@ -1,0 +1,11 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Rewrite rule for /raw/ URLs
+    RewriteRule ^raw/([^/]+)$ raw.php?file=$1 [L]
+
+    # Your existing rules
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule . index.php [L]
+</IfModule>
